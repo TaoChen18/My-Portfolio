@@ -4,6 +4,7 @@ import myphoto from './myphoto.jpg';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
+import Myresume from './Tao-Chen-Resume.pdf'
 
 class Resume extends Component {
     render() {
@@ -33,7 +34,7 @@ M.S. candidate from Rensselaer Polytechnic Institute. Proficient in Java, C++, P
                         <p>mywebsite.com</p>
                         <hr style={{borderTop: '3px solid #833fb2', width: '100%'}}/>
                         <h5>Learn More</h5>
-                        <a href='/Tao-Chen-Resume.pdf' download>Click to download (Tao's Resume)</a>
+                        <a href= {Myresume} download>Click to download (Tao's Resume)</a>
                         <hr style={{borderTop: '3px solid #833fb2', width: '100%'}}/>
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
